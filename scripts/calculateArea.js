@@ -50,7 +50,7 @@ const calculateRhombus = () => {
   const d2 = valueOfInputField("rhombus-d2");
 
   // Area
-  const area = d1 * d2;
+  const area = 0.5 * d1 * d2;
 
   // showing result
   setResult("rhombus-result", area);
@@ -63,7 +63,7 @@ const calculatePentagon = () => {
   const base = valueOfInputField("pentagon-base");
 
   // Area
-  const area = pentagonPerimeter * base;
+  const area = 0.5 * pentagonPerimeter * base;
 
   // showing result
   setResult("pentagon-result", area);
